@@ -1,0 +1,10 @@
+                                                                            (demy  code )
+<h1>This is app component</h1>
+
+<input type="text"  [(ngModel)]="titel">
+
+<br>
+<br>
+<heading [text]="titel"></heading>
+
+<app-heading></app-heading> 
